@@ -4,8 +4,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class ViberClientApplication
+class Application
 
+@SuppressWarnings("SpreadOperator")
 fun main(args: Array<String>) {
-    runApplication<ViberClientApplication>(*args)
+    runApplication<Application>(*args)
 }
