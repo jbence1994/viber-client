@@ -6,7 +6,6 @@ import org.springframework.context.annotation.Configuration
 
 @Configuration
 class OkHttpBeans {
-
     @Bean
     fun okHttpClient(): OkHttpClient = OkHttpClient()
 }

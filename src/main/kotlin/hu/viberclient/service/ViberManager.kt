@@ -5,5 +5,5 @@ import org.springframework.stereotype.Component
 
 @Component
 class ViberManager(
-    private val okHttpClient: OkHttpClient
+    private val okHttpClient: OkHttpClient,
 )
